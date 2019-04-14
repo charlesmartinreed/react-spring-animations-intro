@@ -19,6 +19,9 @@ export default class Component2 extends React.Component {
                 eum vero iusto! Atque asperiores ducimus, nemo dolor libero
                 nulla magni. Error, aliquid.
               </p>
+              <button style={btn} onClick={this.props.toggle}>
+                Toggle Component 3
+              </button>
             </div>
           </div>
         )}
@@ -31,4 +34,13 @@ const c2Style = {
   background: "slateblue",
   color: "white",
   padding: "1.5rem"
+};
+
+const btn = {
+  background: "#333",
+  color: "#fff",
+  padding: "1rem 2rem",
+  border: "none",
+  textTransform: "uppercase",
+  margin: "15px 0"
 };
