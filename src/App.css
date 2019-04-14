@@ -1,4 +1,18 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -30,4 +44,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
